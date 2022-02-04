@@ -23,7 +23,7 @@ if($result->num_rows > 0)
     $cidade = ($user_data['cidade']);
     $endereco = ($user_data['endereco']);
     }
-
+        
 }
 else
 {
