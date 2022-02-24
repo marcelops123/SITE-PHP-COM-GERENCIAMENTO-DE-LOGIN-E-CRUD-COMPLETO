@@ -4,7 +4,8 @@ $dbUsername='sql5474399';
 $dbPassword = 'cssi7a3nxp';
 $dbName = 'sql5474399';
 
-$conexao  = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+
+$conexao  = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName, $port);
 if($conexao->connect_errno)
 {
     //echo "erro";
