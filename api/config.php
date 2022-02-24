@@ -1,7 +1,7 @@
 <?php
-$dbHost ='localhost';
-$dbUsername='root';
-$dbPassword = 'root';
+$dbHost ='sql5.freemysqlhosting.net';
+$dbUsername='sql5474399';
+$dbPassword = 'cssi7a3nxp';
 $dbName = 'user';
 
 $conexao  = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
