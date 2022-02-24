@@ -13,7 +13,7 @@ $data_nasc =  ($_POST['data_nascimento']);
 $estado = ($_POST['estado']);
 $cidade = ($_POST['cidade']);
 $endereco = ($_POST['endereco']);
-$result = mysqli_query($conexao, "INSERT INTO usuarios (nome,email,senha,telefone,genero,data_nasc,estado,cidade,endereco) 
+$result = mysqli_query($conexao, "INSERT INTO user (nome,email,senha,telefone,genero,data_nasc,estado,cidade,endereco) 
 VALUES ('$nome','$email', '$senha', '$telefone', '$genero', '$data_nasc', '$estado', '$cidade', '$endereco')");
 header('Location: login.php');
 }

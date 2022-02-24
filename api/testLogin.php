@@ -7,7 +7,7 @@ include_once('config.php');
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
-$sql = "SELECT * FROM usuarios WHERE email = '$email' and senha = '$senha' ";
+$sql = "SELECT * FROM user WHERE email = '$email' and senha = '$senha' ";
 
 $result = $conexao->query($sql);
 

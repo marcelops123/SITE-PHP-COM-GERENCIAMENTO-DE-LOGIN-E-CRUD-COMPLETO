@@ -10,7 +10,7 @@ if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)
 }
 
 $logado = $_SESSION['email'];
-$sql = "SELECT * FROM usuarios ORDER BY id DESC";
+$sql = "SELECT * FROM user ORDER BY id DESC";
 $result = $conexao->query($sql);
 
 
